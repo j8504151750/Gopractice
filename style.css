@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* 標楷體 */
+  font-family: DFkai-sb, sans-serif;
+}
+/* 讓標題不要變成粗體字 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+/* 代表設定在header的div.top  */
+header div.top {
+  padding: 1rem;
+  background-image: url(./images/background.png);
+}
+header div.top h1 {
+  font-size: 2.5rem;
+}
+header div.top h3 {
+  font-size: 1rem;
+}
+
+header nav {
+  background-color: black;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+/* 上下 、左右*/
+header nav ul li {
+  padding: 0.8rem 1.2rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: yellow;
+  transition: 0.1s;
+}
+
+.active {
+  color: yellow;
+}
